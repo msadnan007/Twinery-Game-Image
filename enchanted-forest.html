@@ -1,0 +1,85 @@
+<tw-storydata name="The Enchanted Forest" startnode="1" creator="Claude" creator-version="1.0" ifid="A1B2C3D4-E5F6-4A5B-9C8D-1234567890AB" zoom="1" format="Harlowe" format-version="3.3.9" options="" tag-colors="" hidden>
+
+<style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+tw-story {
+  background-color: #1a1a2e;
+  color: #f0e6d2;
+}
+
+tw-passage {
+  font-family: 'Cinzel', serif;
+  width: 600px;
+  border: 3px solid #e94560;
+  border-radius: 10px;
+  padding: 24px;
+  background-color: #16213e;
+  box-shadow: 0 0 20px rgba(233, 69, 96, 0.4);
+}
+
+tw-passage img {
+  width: 300px;
+  display: block;
+  margin: 12px auto;
+  border: 2px solid #e94560;
+  border-radius: 5px;
+}
+
+tw-link {
+  color: #ffd369;
+}
+
+tw-link:hover {
+  color: #ffffff;
+}
+</style>
+
+<tw-passagedata pid="1" name="Start" tags="" position="100,100" size="100,100">You stand at the edge of a whispering forest, moonlight filtering through silver leaves.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Forest_at_night.jpg/640px-Forest_at_night.jpg" alt="A dark forest path">
+
+A narrow path splits in two directions.
+
+[[Follow the glowing mushrooms->Mushroom Path]]
+[[Follow the sound of running water->River Path]]</tw-passagedata>
+
+<tw-passagedata pid="2" name="Mushroom Path" tags="" position="300,50" size="100,100">The mushrooms pulse with a soft blue light, leading you deeper into the trees.
+
+Soon you find a small clearing where a fox watches you with knowing eyes.
+
+[[Speak to the fox->Fox Clearing]]
+[[Continue past it->Deep Woods]]</tw-passagedata>
+
+<tw-passagedata pid="3" name="River Path" tags="" position="300,250" size="100,100">The river sparkles under the moon. You spot a small wooden boat tied to a root.
+
+[[Take the boat downstream->Boat Ending]]
+[[Walk along the bank instead->Deep Woods]]</tw-passagedata>
+
+<tw-passagedata pid="4" name="Fox Clearing" tags="" position="500,50" size="100,100">"You seek the heart of the forest," the fox says. "Follow me, and do not look back."
+
+You follow, and the trees part to reveal a glowing tree stump humming with ancient magic.
+
+[[Touch the stump->Good Ending]]</tw-passagedata>
+
+<tw-passagedata pid="5" name="Deep Woods" tags="" position="500,250" size="100,100">The trees grow thicker and the path fades beneath your feet. You are utterly lost.
+
+After wandering for what feels like hours, dawn breaks and you stumble back onto a familiar road.
+
+[[Restart->Start]]</tw-passagedata>
+
+<tw-passagedata pid="6" name="Boat Ending" tags="" position="500,400" size="100,100">The current carries you gently to a hidden lagoon where fireflies dance above the water.
+
+You have found peace, far from the world you left behind.
+
+[[Restart->Start]]</tw-passagedata>
+
+<tw-passagedata pid="7" name="Good Ending" tags="" position="700,50" size="100,100">As your fingers brush the stump, warmth floods through you. The forest itself seems to sigh with relief.
+
+You have become its guardian, forever bound to its magic.
+
+THE END
+
+[[Restart->Start]]</tw-passagedata>
+
+</tw-storydata>
